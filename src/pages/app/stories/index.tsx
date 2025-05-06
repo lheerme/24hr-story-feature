@@ -36,12 +36,12 @@ export function Stories() {
 
   return (
     <div className="flex-1">
-      <div className="flex items-center max-w-[1080px] w-full max-h-[1920px] min-h-dvh bg-zinc-300 relative">
+      <div className="flex items-center max-w-[1080px] w-full max-h-[1920px] h-dvh min-h-dvh bg-zinc-300 relative">
         <StoriesTimeCounter />
         <img
           src={story?.base64img}
           alt=""
-          className="w-full pointer-events-none"
+          className="w-full h-full object-cover pointer-events-none"
         />
       </div>
       <Link
