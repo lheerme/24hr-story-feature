@@ -41,7 +41,7 @@ export function Stories() {
         <img
           src={story?.base64img}
           alt=""
-          className="w-full h-full object-cover pointer-events-none"
+          className="w-full max-h-dvh object-cover pointer-events-none"
         />
       </div>
       <Link
