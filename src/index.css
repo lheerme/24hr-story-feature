@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-story: storyCounter 3s linear;
+
+  @keyframes storyCounter {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 100%;
+    }
+  }
+}
